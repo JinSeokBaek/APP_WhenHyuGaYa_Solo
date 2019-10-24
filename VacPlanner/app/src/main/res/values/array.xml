@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vacType">
+        <item>포상</item>
+        <item>위로</item>
+        <item>특별</item>
+        <item>기타</item>
+    </string-array>
+
+</resources>

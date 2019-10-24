@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="#00FF0000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llClick"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_grad">
+
+        <TextView
+            android:id="@+id/tvDay"
+            style="@style/TextViewStyle2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="1일차"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!--            <FrameLayout-->
+    <!--                android:id="@+id/flFake"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:background="@drawable/shape_received"-->
+    <!--                android:visibility="gone" />-->
+
+    <ListView
+        android:padding="5dp"
+        android:background="@drawable/shape_calendar"
+        android:id="@+id/lvSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+</LinearLayout>

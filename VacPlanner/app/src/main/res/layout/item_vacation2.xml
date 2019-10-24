@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="test"
+        android:gravity="center_vertical"
+        style="@style/TextViewStyle"
+        android:textSize="25sp"
+        android:layout_height="match_parent"/>
+    <com.travijuu.numberpicker.library.NumberPicker
+        android:layout_width="0dp"
+        android:id="@+id/npDays"
+        app:min="1"
+        android:gravity="center_vertical|end"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/ivDel"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_gravity="center_vertical"
+        android:layout_width="24dp"
+        android:layout_height="36dp"
+        android:src="@drawable/delete"/>
+</LinearLayout>

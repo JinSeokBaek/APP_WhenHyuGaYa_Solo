@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WishActivity">
+    <TextView
+        android:id="@+id/tvAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="@style/TextViewStyle"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="우측 하단의\n추가 버튼을 눌러\n 위시리스트를 추가하세요!"
+        />
+    <GridView
+        android:id="@+id/gvWishlist"
+        android:numColumns="3"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:src="@drawable/add_black"
+        android:layout_margin="45dp"
+        android:id="@+id/btnAdd_wish"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

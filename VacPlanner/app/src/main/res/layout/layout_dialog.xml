@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:textSize="25sp"
+            android:text="이름 : "/>
+        <EditText
+            android:id="@+id/etName"
+            style="@style/TextViewStyle"
+            android:textSize="30sp"
+            android:hint="이름을 입력하세요"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:textSize="25sp"
+            android:text="입대일 : "/>
+        <EditText
+            android:id="@+id/etIn"
+            style="@style/TextViewStyle"
+            android:textSize="30sp"
+            android:hint="YYYY-MM-DD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:textSize="25sp"
+            android:text="전역일 : "/>
+        <EditText
+            android:id="@+id/etOut"
+            style="@style/TextViewStyle"
+            android:textSize="30sp"
+            android:hint="YYYY-MM-DD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:textSize="25sp"
+            android:text="연가 : "/>
+        <com.travijuu.numberpicker.library.NumberPicker
+            android:id="@+id/vacNormal"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            app:value="25"/>
+
+    </LinearLayout>
+</LinearLayout>
