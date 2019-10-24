@@ -39,7 +39,7 @@ public class WishPopupActivity extends Activity {
 
     ArrayList<Wish> wishes=new ArrayList<>();
 
-    int id;
+    int id,position;
 
 
     @Override
@@ -55,6 +55,7 @@ public class WishPopupActivity extends Activity {
 
         Intent it=getIntent();
         id=it.getIntExtra("id",0);
+        position=it.getIntExtra("position",0);
 
         try{
             dbHelper=new DBHelper(getApplicationContext());
@@ -100,7 +101,7 @@ public class WishPopupActivity extends Activity {
         }
 
         @Override
-        public View getView(int position, View view, ViewGroup parent) {
+        public View getView(final int position, View view, ViewGroup parent) {
             view = inflater.inflate(R.layout.item_wish, parent, false);
             TextView tv=(TextView)view.findViewById(R.id.tvWishName);
             RatingBar rbImportance=view.findViewById(R.id.rbImportance);
@@ -124,6 +125,7 @@ public class WishPopupActivity extends Activity {
                 public void onClick(View v) {
                     Intent it=new Intent();
                     it.putExtra("id",_id);
+                    it.putExtra("position",position);
 
                     setResult(RESULT_CANCELED,it);
                     finish();

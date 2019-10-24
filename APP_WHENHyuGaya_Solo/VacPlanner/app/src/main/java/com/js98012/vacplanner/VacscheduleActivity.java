@@ -139,6 +139,7 @@ public class VacscheduleActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent it = new Intent(VacscheduleActivity.this, WishPopupActivity.class);
                 it.putExtra("id", id);
+                it.putExtra("position", vpView.getCurrentItem());
                 startActivityForResult(it, 1004);
             }
         });
@@ -199,13 +200,15 @@ public class VacscheduleActivity extends AppCompatActivity {
 //                fragment.setArguments(bundle);
 //                fragmentAdapter.addItem(fragment);
             // }
-        } else if (resultCode == RESULT_OK) {
+        } else if (resultCode == RESULT_OK && data != null) {
+            int position=data.getIntExtra("position",0);
             FragmentAdapter fragmentAdapter = new FragmentAdapter(getSupportFragmentManager());
             int total = days % 3 != 0 ? days / 3 + 1 : days / 3;
             for (int i = 0; i < total; i++) {
                 GridFragment fragment = new GridFragment(days, id, total, i);
                 fragmentAdapter.addItem(fragment);
             }
+            vpView.setCurrentItem(position);
             vpView.setAdapter(fragmentAdapter);
         }
 
