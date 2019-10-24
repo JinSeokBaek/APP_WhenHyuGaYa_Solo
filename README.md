@@ -67,7 +67,7 @@ SplashActivity : Splash화면
 
 
 # 저작권 및 사용권 정보 (Copyright / End User License)
-
+-
 
 # 배포자 및 개발자의 연락처 정보 (Contact Information)
   배포 및 개발자 : 백진석<br>
@@ -84,3 +84,4 @@ SplashActivity : Splash화면
   백진석(Baek Jin Seok)
   
 # 업데이트 정보 (Change Log)
+10/24 왠(When) 휴가야? ver 1.0 
