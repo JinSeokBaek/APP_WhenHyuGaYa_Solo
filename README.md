@@ -13,6 +13,25 @@
 
 # 파일 정보 및 목록 (File Manifest)
 
+-Planner 관련
+MainActivity : 휴가계획 목록 및 캘린더 Activity
+VacPlanActivity : 휴가 계획 추가 Activity
+VacscheduleActivity : 휴가 일정 Activity
+GridFragment : 휴가 일정에서 ViewPager 사용 부분(Wish목록들) Activity
+
+-WishList 관련
+WishActivity : WishList 기능 Activity
+WishaddActivity : WishList 추가 및 수정 및 상세보기 Activity
+WishPopupActivity : VacscheduleActiviy에서 WishList 불러오는 PopUp Activity
+
+-User 관련
+SettingActivity : 유저 정보,휴가 추가 Activity
+
+-기타
+BackPressCloseHandler : 뒤로가기 두번 기능
+DBHelper : sqlite 데이터베이스
+
+
 
 # 저작권 및 사용권 정보 (Copyright / End User License)
 
