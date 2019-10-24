@@ -80,7 +80,7 @@ public class WishaddActivity extends AppCompatActivity {
                     etContent.setText(intent.getStringExtra(Intent.EXTRA_TEXT));
                 else if (type.startsWith("image/")) {
                     Uri imageUri = (Uri) intent.getParcelableExtra(Intent.EXTRA_STREAM);
-                    cropImageFromAlbum(imageUri);
+                    ivThumb.setImageURI(imageUri);
                 }
             } else {
                 Bitmap bitmap = BitmapFactory.decodeByteArray(intent.getByteArrayExtra("img"), 0, intent.getByteArrayExtra("img").length);
