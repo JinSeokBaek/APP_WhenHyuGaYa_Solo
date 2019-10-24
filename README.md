@@ -8,9 +8,8 @@
 # 설치 안내 (Installation Process)
  APK파일 다운로드 후 설치
  
- 
 # 사용법 (Getting Started)
-
+ 
 
 # 파일 정보 및 목록 (File Manifest)
 
@@ -19,7 +18,7 @@
 
 
 # 배포자 및 개발자의 연락처 정보 (Contact Information)
-  배포자 : 백진석<br>
+  배포 및 개발자 : 백진석<br>
   이메일 : js980112@naver.com<br>
   이메일로 연락바랍니다.
  
