@@ -14,7 +14,7 @@
 # 저작권 및 사용권 정보 (Copyright / End User License)
 
 # 배포자 및 개발자의 연락처 정보 (Contact Information)
-  배포자 : 백진석
+  <p>배포자 : 백진석</p>
   이메일 : js980112@naver.com
   이메일로 연락바랍니다.
   
