@@ -14,10 +14,10 @@
 # 저작권 및 사용권 정보 (Copyright / End User License)
 
 # 배포자 및 개발자의 연락처 정보 (Contact Information)
-  <p>배포자 : 백진석</p>
+  <pre>배포자 : 백진석
   이메일 : js980112@naver.com
   이메일로 연락바랍니다.
-  
+  </pre>
 # 알려진 버그 (Known Issues)
   알림바 broadcast
   
