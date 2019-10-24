@@ -13,22 +13,22 @@
 
 # 파일 정보 및 목록 (File Manifest)
 
--Planner 관련
-MainActivity : 휴가계획 목록 및 캘린더 Activity
-VacPlanActivity : 휴가 계획 추가 Activity
-VacscheduleActivity : 휴가 일정 Activity
-GridFragment : 휴가 일정에서 ViewPager 사용 부분(Wish목록들) Activity
-
--WishList 관련
-WishActivity : WishList 기능 Activity
-WishaddActivity : WishList 추가 및 수정 및 상세보기 Activity
-WishPopupActivity : VacscheduleActiviy에서 WishList 불러오는 PopUp Activity
-
--User 관련
-SettingActivity : 유저 정보,휴가 추가 Activity
-
--기타
-BackPressCloseHandler : 뒤로가기 두번 기능
+-Planner 관련<br>
+MainActivity : 휴가계획 목록 및 캘린더 Activity<br>
+VacPlanActivity : 휴가 계획 추가 Activity<br>
+VacscheduleActivity : 휴가 일정 Activity<br>
+GridFragment : 휴가 일정에서 ViewPager 사용 부분(Wish목록들) Activity<br>
+<br>
+-WishList 관련<br>
+WishActivity : WishList 기능 Activity<br>
+WishaddActivity : WishList 추가 및 수정 및 상세보기 Activity<br>
+WishPopupActivity : VacscheduleActiviy에서 WishList 불러오는 PopUp Activity<br>
+<br>
+-User 관련<br>
+SettingActivity : 유저 정보,휴가 추가 Activity<br>
+<br>
+-기타<br>
+BackPressCloseHandler : 뒤로가기 두번 기능<br>
 DBHelper : sqlite 데이터베이스
 
 
